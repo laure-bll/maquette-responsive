@@ -1,0 +1,553 @@
+/*\ ___________________________________________GENERAL________________________________________ \*/
+body
+{
+    margin: auto;
+    font-size: 1em;
+    font-family: Arial, sans-serif, serif;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+/* ____________________HEADER_____________________ */
+.header
+{
+    background:rgb(167, 114, 255);
+    margin: auto;
+    border-bottom: 1.5px solid rgb(76, 83, 79);
+}
+.header__reseaux
+{
+    background: rgb(190, 255, 255);
+    display: flex;
+    padding-top: 1.4%;
+    padding-bottom: 1%;
+    border-bottom: 1.5px solid rgb(76, 83, 79);
+}
+.header__img
+{
+    width: 100%;
+}
+.header__reseau
+{
+    margin-left: 15%;
+}
+.header__reseau--margin
+{
+    margin-left: 0.5%;
+}
+/* ___________________NAVIGATION___________________ */
+.header__logo--cut
+{
+    clip-path: inset(20px);
+}
+.header__menu
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+.header__list
+{
+    list-style-type: none;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1.1em;
+    position: relative;
+    margin: auto;
+    padding: 0;
+}
+.header__link
+{
+    display: block;
+}
+.header__link--position
+{
+   padding: 10px 2px 10px 2px;
+   border-bottom: 1.5px solid black;
+   min-width: 100px;
+   width: 15%;
+   text-align: center;
+}
+.header__link:hover
+{
+    color: rgb(228, 0, 46);
+}
+.header__sublist
+{
+    list-style-type: none;
+    background: rgb(203, 203, 203);
+    position: absolute;
+    display: none;
+    padding: 0;
+}
+.header__link--hover:hover .header__sublist
+{
+    display: block;
+}
+.header__link--position:hover
+{
+    background: white;
+}
+/* ____________________DIAPORAMA___________________ */
+.header__diapo
+{
+    background: rgb(204, 255, 255);
+    text-align: center;
+    padding: 0.5%;
+}
+.header__diapo--border
+{
+    border-top: 1.5px solid rgb(76, 83, 79);
+}
+.header__diapo--large
+{
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+.header__diapo--img
+{
+    width: 100%;
+}
+/* _____________________CENTER_____________________ */
+.content__item
+{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+.content__article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.content__header
+{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(166, 114, 255);
+    color: white;
+    font-size: 1.3em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.content__icone
+{
+    width: 100%;
+}
+.content__text
+{
+    color: rgb(117, 102, 91);
+    line-height: 1.7em;
+}
+.content__title
+{
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.content__link
+{
+    text-decoration: none;
+    color: rgb(235, 0, 98);
+}
+.content__line
+{
+    margin-bottom: 3%;
+    color: rgba(218, 208, 208, 0.5);
+    font-size: 1px;
+}
+.content__aside
+{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+.content__flags
+{
+    display: flex;
+    justify-content: center;
+}
+.content__figcaption
+{
+    font-weight: bold;
+    padding: 10px;
+}
+.content__img
+{
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+    padding: 2%;
+    width: 100%;
+}
+/* ______________________FOOTER______________________ */
+.footer
+{
+    background:rgb(167, 114, 255);
+    margin: auto;
+    border-top: 1px solid rgb(76, 83, 79);
+    border-bottom: 1px solid rgb(76, 83, 79);
+}
+.footer__line
+{
+    color: rgba(218, 208, 208, 0.5);
+    font-size: 1px;
+    width: 100%;
+}
+.footer__item
+{
+    background: rgb(204, 255, 255);
+    border-bottom: 1px solid rgb(76, 83, 79);
+    padding: 3%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+.footer__section
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__article
+{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.footer__title
+{
+    font-size: 1.8em;
+    font-weight: normal;
+}
+.footer__element
+{
+    display: flex;
+}
+.footer__img
+{
+    padding: 2%;
+}
+.footer__text
+{
+    line-height: 1.5em;
+}
+.footer__aside
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer__btn
+{
+    width: 15%;
+    padding: 12px;
+    border: 1.5px solid rgb(60, 74, 57);
+    border-radius: 5px;
+    background: rgb(108, 185, 107);
+    color: white;
+    font-size: 1.2em;
+    min-width: 110px;
+}
+/* ____________________RAPPEL NAV______________________ */
+.footer__menu
+{
+    display: flex;
+    padding-left: 11%;
+}
+.footer__list
+{
+    list-style-type: none;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 70%;
+}
+/* ______________________COPYRIGHT____________________ */
+.footer__copyright
+{
+    padding-left: 12.5%;
+    font-size: 0.9em;
+    color: rgb(117, 102, 91);
+    padding-bottom: 3%;
+}
+
+/*\ _______________________________________MEDIA QUERIES_______________________________________ \*/
+
+
+/* ____________________TABLET_______________________ */
+@media all and (max-width: 1100px)
+{
+    .header__menu
+    {
+        flex-direction: column;
+    }
+    .header__list
+    {
+        width: 90%;
+    }
+    .content__item
+    {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .content__title
+    {
+        font-size: 1em;
+    }
+    .content__aside
+    {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .footer__item
+    {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+}
+/* _____________________SMARTPHONE_________________ */
+@media all and (max-width: 800px)
+{
+    .header__logo--cut
+    {
+        width: 100%;
+    }
+    .header__menu
+    {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+        margin: 2%;
+        padding: 2%;
+    }
+    .header__list
+    {
+        flex-direction: column;
+    }
+    .header__link
+    {
+        border-top: 1px solid white;
+    }
+    .header__sublist
+    {
+        list-style-type: none;
+        background: rgb(203, 203, 203);
+        display: none;
+        padding: 0;
+        position: relative;
+    }
+    .header__link--position
+    {
+        padding: 10px 2px 10px 2px;
+        width: 100%;
+        border: none;
+    }    
+    .header__link--hover:hover .header__sublist
+    {
+        display: block;
+    }
+    .content__item
+    {
+        margin-right: 5%;
+        margin-left: 5%;
+        flex-direction: column;
+    }
+    .content__title
+    {
+        font-size: 1.3em;
+    }
+    .content__line
+    {
+        margin-bottom: 3%;
+        color: rgba(218, 208, 208, 0.5);
+        font-size: 1px;
+    }
+    .content__aside
+    {
+        padding-top: 2%;
+        padding-bottom: 4%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .content__figcaption
+    {
+        font-weight: bold;
+        padding: 10px;
+    }
+    .content__img
+    {
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 5px;
+        padding: 2%;
+        width: 100%;
+    }
+    .content__figure--none
+    {
+        display: none;
+    }
+    .footer__item
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .footer__section
+    {
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+    .footer__img
+    {
+        float: left;
+    }
+    .footer__article
+    {
+        width: 100%;
+    }
+    .footer__list
+    {
+        list-style-type: none;
+        margin-top: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bold;
+        flex-wrap: wrap;
+    }
+    .footer__list--size
+    {
+        padding: 2px;
+    }
+}
+/* _____________________SMARTPHONE LITTLE_________________ */
+@media all and (max-width: 330px)
+{
+    .header__logo--cut
+    {
+        clip-path: inset(10px);
+        width: 100%;
+    }
+    .header__menu
+    {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+        margin: 2%;
+        padding: 2%;
+    }
+    .header__list
+    {
+        flex-direction: column;
+    }
+    .header__link
+    {
+        border-top: 1px solid white;
+    }
+    .header__sublist
+    {
+        list-style-type: none;
+        background: rgb(203, 203, 203);
+        display: none;
+        padding: 0;
+        position: relative;
+    }
+    .header__link--position
+    {
+        padding: 10px 2px 10px 2px;
+        width: 100%;
+        border: none;
+    }    
+    .header__link--hover:hover .header__sublist
+    {
+        display: block;
+    }
+    .content__item
+    {
+        margin-right: 5%;
+        margin-left: 5%;
+        flex-direction: column;
+    }
+    .content__header
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .content__title
+    {
+        font-size: 1em;
+    }
+    .content__line
+    {
+        margin-bottom: 3%;
+        color: rgba(218, 208, 208, 0.5);
+        font-size: 1px;
+    }
+    .content__aside
+    {
+        padding-top: 2%;
+        padding-bottom: 4%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .content__figcaption
+    {
+        font-weight: bold;
+        padding: 10px;
+    }
+    .content__img
+    {
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 5px;
+        padding: 2%;
+        width: 100%;
+    }
+    .content__figure--none
+    {
+        display: none;
+    }
+    .footer__item
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .footer__section
+    {
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .footer__article
+    {
+        width: 100%;
+    }
+    .footer__element
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__list
+    {
+        list-style-type: none;
+        margin-top: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bold;
+        flex-wrap: wrap;
+    }
+    .footer__list--size
+    {
+        padding: 2px;
+    }
+}
