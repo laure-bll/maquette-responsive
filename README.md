@@ -4,6 +4,8 @@ Intégration d'une maquette responsive conforme au visuel et respectant les norm
 
 # installation
 Le projet ne nécessite pas d'installation particulière.
+
+#execution
 Il suffit d'ouvrir le fichier "maquette-responsive.html" dans un navigateur.
 
 # fabrication
@@ -12,4 +14,4 @@ Il suffit d'ouvrir le fichier "maquette-responsive.html" dans un navigateur.
 - Méthodologie BEM
 
 # création
-- Laure Bellanger @laure-bll
+- Laure Bellanger
