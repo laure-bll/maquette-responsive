@@ -12,4 +12,4 @@ Il suffit d'ouvrir le fichier "maquette-responsive.html" dans un navigateur.
 - Méthodologie BEM
 
 # création
-- Laure Bellanger @laure-bll
+- Laure Bellanger
