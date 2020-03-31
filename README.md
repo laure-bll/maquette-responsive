@@ -1,4 +1,4 @@
-# maquette-responsive
+# projet
 
 Intégration d'une maquette responsive respectant les normes du W3C. Le site est visible depuis un ordinateur, une tablette ou un téléphone. La maquette est disponible dans le dossier "mock-up".
 
